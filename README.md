@@ -19,7 +19,7 @@ npm start
 
 ### Demo video:
 
-Watch on YouTube: https://www.youtube.com/watch?v=14QPXRdmSHA
+[Watch on YouTube](https://www.youtube.com/watch?v=14QPXRdmSHA)
 
 ### Quiz images:
 
