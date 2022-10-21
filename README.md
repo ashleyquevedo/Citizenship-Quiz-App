@@ -38,4 +38,4 @@ I would like to build my own REST API using Postgres and Express to allow users 
 
 ## Contact:
 
-[LinkedIn:](https://www.linkedin.com/in/ashleyquevedo/ "LinkedIn:")
+[LinkedIn](https://www.linkedin.com/in/ashleyquevedo/ "LinkedIn")
