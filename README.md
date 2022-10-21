@@ -19,7 +19,9 @@ npm start
 
 ### Demo video:
 
-https://www.youtube.com/watch?v=14QPXRdmSHA
+Watch on YouTube: https://www.youtube.com/watch?v=14QPXRdmSHA
+
+<video src='https://www.youtube.com/watch?v=14QPXRdmSHA' width=180/>
 
 ### Quiz images:
 
