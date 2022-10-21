@@ -23,7 +23,7 @@ Pending...
 
 ### Quiz images:
 
-![Card front example](/public/readmefiles/cardfront.png "Card front example")
+![Card front example](/public/readmefiles/cardfront.png "Card front example" height=180)
 
 ![Card back example](/public/readmefiles/cardback.png "Card back example")
 
