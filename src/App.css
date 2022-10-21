@@ -1,38 +1,140 @@
-.App {
+body {
+  background-color: #d7cce7;
+  width: 100vw;
+  min-height: 100vh;
+  color: #361c4d;
+  font-family: Menlo;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  font-family: Menlo;
+  font-size: large;
+  color: #202d56;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #273c82;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+  align-items: center;
+  background-color: #202d56;
+  color: #d7cce7;
+  display: flex;
+  height: 80px;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 150%;
+}
+
+.nav-left * {
+  margin: 15px;
+}
+
+.test-container {
   display: flex;
   flex-direction: column;
+  min-height: 80%;
+  min-width: 80%;
+  margin: 40px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  perspective: 1000px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-container {
+  margin-top: 40px;
+  width: 424px;
+  height: 400px;
+  transform-style: preserve-3d;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.test-card-front,
+.test-card-back {
+  background-color: #abb5da;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #3b1e65;
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 400px;
+  max-height: 400px;
+  padding: 15px 8px 15px 8px;
+  position: absolute;
+  align-items: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.test-card-back {
+  background-color: #8491c3;
+  transform: rotateY(180deg);
+}
+
+.flip-exit {
+  transform: rotateY(0deg);
+}
+
+.flip-exit-active {
+  transform: rotateY(180deg);
+  transition: transform 500ms;
+}
+
+.flip-exit-done {
+  transform: rotateY(180deg);
+}
+
+.question {
+  background-color: #d7cce7;
+  border-radius: 20px;
+  margin-top: 35px;
+}
+
+.question-back {
+  background-color: #b3a4c9;
+  border-radius: 20px;
+  margin-top: 35px;
+  padding: 0px 8px 0px 8px;
+}
+
+.question-back h2 {
+  font-size: 110%;
+}
+
+.flip-button {
+  margin-top: auto;
+}
+
+.correct-button,
+.incorrect-button {
+  font-size: medium;
+  margin: 0px 10px 0px 10px;
+}
+
+.correct-button-clicked,
+.incorrect-button-clicked {
+  font-size: medium;
+  margin: 0px 10px 0px 10px;
+  background-color: #8b8494;
+}
+
+.scoring-buttons {
+  margin-top: auto;
+}
+
+.score {
+  font-size: larger;
+  text-decoration: underline;
+  margin-top: 60px;
+  border-width: 2px;
+}
+
+.new-button {
+  font-size: smaller;
 }
