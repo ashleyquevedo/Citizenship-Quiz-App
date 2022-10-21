@@ -24,11 +24,13 @@ Pending...
 ### Quiz images:
 
 #### Card front example:
-<img src="/public/readmefiles/cardfront.png" height="200">
+<img src="/public/readmefiles/cardfront.png" height="400">
 
-![Card back example](/public/readmefiles/cardback.png "Card back example")
+#### Card back example:
+<img src="/public/readmefiles/cardback.png" height="400">
 
-![Score view example](/public/readmefiles/scoreexample.png "Card back example")
+#### Score view example:
+<img src="/public/readmefiles/scoreexample.png" height="400">
 
 ## Next Steps:
 
