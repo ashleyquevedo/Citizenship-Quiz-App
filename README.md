@@ -21,8 +21,6 @@ npm start
 
 Watch on YouTube: https://www.youtube.com/watch?v=14QPXRdmSHA
 
-<video src='https://www.youtube.com/watch?v=14QPXRdmSHA' width=180></video>
-
 ### Quiz images:
 
 #### Card front example:
